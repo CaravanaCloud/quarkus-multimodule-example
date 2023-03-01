@@ -1,4 +1,6 @@
 tasks:
-  - init: mvn install -DskipTests
+  - init: |
+      sdk install quarkus
+      mvn install -DskipTests
 
 
