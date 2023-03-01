@@ -30,6 +30,5 @@ public class Greeting {
 
     public String toString(){
         return String.format("%s:%s", id, message);
-    }
-    
+    }    
 }
